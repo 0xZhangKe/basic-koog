@@ -7,9 +7,9 @@ import com.zhangke.koog.basic.framework.json.globalJson
 import com.zhangke.koog.basic.framework.log.Logger
 import kotlinx.serialization.Serializable
 
-object ReadDocTool : SimpleTool<ReadDocTool.Args>(
+object ReadBuiltIdResourcesTool : SimpleTool<ReadBuiltIdResourcesTool.Args>(
     argsType = typeToken<Args>(),
-    name = "readDoc",
+    name = "readBuiltInResources",
     description = "Read a bundled document from the docs classpath resource directory by file name.",
 ) {
 
@@ -33,4 +33,4 @@ object ReadDocTool : SimpleTool<ReadDocTool.Args>(
     )
 }
 
-expect fun readBundledDoc(fileName: String): ReadDocTool.ReadDocResult
+expect fun readBundledDoc(fileName: String): ReadBuiltIdResourcesTool.ReadDocResult
