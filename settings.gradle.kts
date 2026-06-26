@@ -21,5 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "basic-koog"
 
-include(":framework")
 include(":core")

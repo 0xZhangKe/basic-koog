@@ -11,7 +11,7 @@ import ai.koog.prompt.llm.LLMCapability
 import ai.koog.prompt.llm.LLMProvider
 import ai.koog.prompt.llm.LLModel
 import com.zhangke.koog.basic.core.llm.model.LlmLocalConfig
-import com.zhangke.koog.basic.framework.log.Logger
+import com.zhangke.koog.basic.core.internal.log.Logger
 
 fun buildKimiAgent(
     systemPrompt: String,

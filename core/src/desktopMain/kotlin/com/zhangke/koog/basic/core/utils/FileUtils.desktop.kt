@@ -1,6 +1,6 @@
 package com.zhangke.koog.basic.core.utils
 
-import com.zhangke.koog.basic.framework.utils.getProjectFolderPath
+import com.zhangke.koog.basic.core.internal.utils.getProjectFolderPath
 import java.nio.file.Path
 import java.nio.file.Paths
 

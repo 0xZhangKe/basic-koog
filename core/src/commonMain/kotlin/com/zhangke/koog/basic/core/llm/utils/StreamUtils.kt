@@ -1,7 +1,7 @@
 package com.zhangke.koog.basic.core.llm.utils
 
 import ai.koog.prompt.streaming.StreamFrame
-import com.zhangke.koog.basic.framework.utils.ifEmptyOrBlank
+import com.zhangke.koog.basic.core.internal.utils.ifEmptyOrBlank
 
 val StreamFrame.message: String
     get() = when (this) {

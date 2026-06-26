@@ -3,8 +3,8 @@ package com.zhangke.koog.basic.core.tools
 import ai.koog.agents.core.tools.SimpleTool
 import ai.koog.agents.core.tools.annotations.LLMDescription
 import ai.koog.serialization.typeToken
-import com.zhangke.koog.basic.framework.json.globalJson
-import com.zhangke.koog.basic.framework.log.Logger
+import com.zhangke.koog.basic.core.internal.json.globalJson
+import com.zhangke.koog.basic.core.internal.log.Logger
 import kotlinx.serialization.Serializable
 
 object ReadBuiltIdResourcesTool : SimpleTool<ReadBuiltIdResourcesTool.Args>(

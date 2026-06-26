@@ -9,7 +9,7 @@ import ai.koog.prompt.executor.clients.dashscope.DashscopeLLMClient
 import ai.koog.prompt.executor.clients.dashscope.DashscopeModels
 import ai.koog.prompt.executor.llms.MultiLLMPromptExecutor
 import com.zhangke.koog.basic.core.llm.model.LlmLocalConfig
-import com.zhangke.koog.basic.framework.log.Logger
+import com.zhangke.koog.basic.core.internal.log.Logger
 
 fun buildQwenAgent(
     systemPrompt: String,

@@ -74,15 +74,16 @@ kotlin {
             kotlin.srcDir(generateLlmLocalConfig)
 
             dependencies {
-                implementation(project(":framework"))
                 implementation(libs.androidx.room.runtime)
                 implementation(libs.androidx.sqlite.bundled)
                 implementation(libs.koin.core)
                 implementation(libs.ktor.client.core)
                 implementation(libs.ktor.client.content.negotiation)
+                implementation(libs.ktor.client.logging)
                 implementation(libs.ktor.client.serialization.kotlinx.json)
                 implementation(libs.kotlin.coroutines.core)
                 implementation(libs.kotlinx.serialization.json)
+                api(libs.multiplatform.settings)
                 api(libs.koog.agents)
                 api(libs.koog.hashscope.client)
                 api(libs.koog.openai.client)
@@ -90,6 +91,7 @@ kotlin {
         }
         val desktopMain by getting {
             dependencies {
+                implementation(libs.ktor.client.okhttp)
                 implementation(libs.zip4j)
             }
         }

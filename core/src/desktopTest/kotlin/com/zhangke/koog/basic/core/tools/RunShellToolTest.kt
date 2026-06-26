@@ -1,6 +1,6 @@
 package com.zhangke.koog.basic.core.tools
 
-import com.zhangke.koog.basic.framework.json.globalJson
+import com.zhangke.koog.basic.core.internal.json.globalJson
 import kotlinx.coroutines.runBlocking
 import kotlin.io.path.createTempDirectory
 import kotlin.test.Test
